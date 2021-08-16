@@ -1,0 +1,162 @@
+/* font-family: 'Oswald', sans-serif; */
+/* font-family: 'Open Sans Condensed', sans-serif; */
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80px;
+  background-color: #343a40;
+}
+
+header nav{
+  width: 50%;
+}
+
+header nav ul{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header nav ul li{
+  list-style: none;
+}
+
+header nav ul li a{
+  text-decoration: none;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 100;
+  text-transform: uppercase;
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+#correct_font{
+  font-size: 16px;
+  padding-right: 5px;
+}
+
+
+header img{
+  width: 220px;
+}
+
+/* section part star */
+.futured{
+  display: flex;
+  justify-content: center;
+  min-height: 90vh;
+  background-color: #525252;
+  background-image: url(https://hosting.photobucket.com/images/f328/kishorhossain/daniel-leone-v7daTKlZzaw-unsplash.jpg?width=1920&height=1080&fit=bounds);
+  background-size: cover;
+  
+}
+
+.futured_text{
+  width: 50%;
+  margin-top: 150px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.futured_text div{
+  width: 60%;
+}
+
+.futured_text h1{
+  font-size: 35px;
+  text-transform: uppercase;
+  font-family: 'Open Sans Condensed', sans-serif;
+  color: #fff;
+}
+
+.green_text{
+  color: #6dbd6d;
+}
+
+.futured_text p{
+  font-size: 18px;
+  text-transform: capitalize;
+  font-family: 'Open Sans Condensed', sans-serif;
+  color: #fff;
+}
+.futured_text ul li {
+  font-size: 18px;
+  font-family: 'Open Sans Condensed', sans-serif;
+  color: #fff;
+  list-style: none;
+}
+button{
+  font-size: 18px;
+  background-color: #6dbd6d;
+  border: none;
+  text-transform: uppercase;
+  margin-top: 25px;
+  padding: 10px 25px;
+  border-radius: 12% / 50%;
+}
+
+button a{
+  text-decoration: none;
+  color: #fff;
+}
+
+.signup{ 
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.signup_form{
+  width: 21rem;
+  margin: 150px 0;
+  margin-right: 20%;
+  background-color: #6dbd6d;
+  padding: 30px 20px;
+  border-radius: 2%;
+}
+
+.signup h1{
+  text-align: center;
+  font-size: 30px;
+  font-family: 'Open Sans Condensed', sans-serif;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.signup h6{
+  text-align: center;
+  font-size: 16px;
+  font-family: 'Oswald', sans-serif;
+  font-weight: lighter;
+  text-transform: capitalize;
+  color: #fff;
+  padding-bottom: 20px;
+}
+
+.signup input{
+  width: 100%;
+  padding: 0.6rem;
+  margin-bottom: 0.6rem;
+  border: none;
+  border-radius: 3px;
+  color: #757575;
+  font-size: 14px;
+
+}
+
+.signup .signup_form form input[type="submit"]{
+  background-color: #529252;
+  color: white;
+  font-size: 18px;
+  text-transform: uppercase;
+  cursor: pointer;
+  box-shadow: 0 6px 4px -2px #447b44;
+}
